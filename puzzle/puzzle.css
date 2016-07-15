@@ -1,0 +1,36 @@
+#tdList{
+	width:100px;
+	height:100px;
+}
+#div1 {width:350px;height:70px;padding:10px;border:1px solid #aaaaaa;}
+#rankTable{
+	float:left;
+	border : 3px solid black;
+	width: 120px;
+	margin-right: 50px;
+}
+.mover {
+ width:200px; height:170px; line-height:4em; margin:1px; 
+ padding:5px; float:left; 
+ border:1px dotted #333333; text-align:center;  
+} 
+img{
+	display : inline;
+}
+#img1{background-image: url(images/puzzleImg_1.jpg)}
+#img2{background-image: url(images/puzzleImg_2.jpg)}
+#img3{background-image: url(images/puzzleImg_3.jpg)}
+#img4{background-image: url(images/puzzleImg_4.jpg)}
+#img5{background-image: url(images/puzzleImg_5.jpg)}
+#img6{background-image: url(images/puzzleImg_6.jpg)}  
+#img7{background-image: url(images/puzzleImg_7.jpg)}  
+#img8{background-image: url(images/puzzleImg_8.jpg)}  
+#img9{background-image: url(images/puzzleImg_9.jpg)}  
+#img10{background-image: url(images/puzzleImg_10.jpg)}  
+#img11{background-image: url(images/puzzleImg_11.jpg)}  
+#img12{background-image: url(images/puzzleImg_12.jpg)}  
+#img13{background-image: url(images/puzzleImg_13.jpg)}  
+#img14{background-image: url(images/puzzleImg_14.jpg)}  
+#img15{background-image: url(images/puzzleImg_15.jpg)}  
+#img16{background-image: url(images/puzzleImg_16.jpg)}  
+ 

@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+</style>
+<link rel="stylesheet" type="text/css" href="puzzle.css"> 
+
+</head>
+<body>
+<script  src="drag&drop.js" type = "text/javascript"> </script>
+<p>퍼즐 게임 </p><div id ="showTimer"></div>
+
+<table id = "rankTable">
+<th><td>순위</td><td>시간</td></th>
+<tr><td></td><td id = "rank1" name = "ranking"></td><td id = "rankScore1" name = "ranking"></td></tr>
+<tr><td></td><td id = "rank2" name = "ranking"></td><td id = "rankScore2" name = "ranking"></td></tr>
+<tr><td></td><td id = "rank3" name = "ranking"></td><td id = "rankScore3" name = "ranking"></td></tr>
+<tr><td></td><td id = "rank4" name = "ranking"></td><td id = "rankScore4" name = "ranking"></td></tr>
+<tr><td></td><td id = "rank5" name = "ranking"></td><td id = "rankScore5" name = "ranking"></td></tr>
+<tr><td></td><td id = "rank6" name = "ranking"></td><td id = "rankScore6" name = "ranking"></td></tr>
+<tr><td></td><td id = "rank7" name = "ranking"></td><td id = "rankScore7" name = "ranking"></td></tr>
+<tr><td></td><td id = "rank8" name = "ranking"></td><td id = "rankScore8" name = "ranking"></td></tr>
+<tr><td></td><td id = "rank9" name = "ranking"></td><td id = "rankScore9" name = "ranking"></td></tr>
+<tr><td></td><td id = "rank10" name = "ranking"></td><td id = "rankScore10" name = "ranking"></td></tr>
+
+</table>
+
+<img src="puzzleImg.jpg" width ="500px" draggable="true" ondragstart="drag(event)">
+
+<button onclick ="start()" id = "startButton"> 시작 </button>
+<button onclick ="resetStorage()" id = "resetButton"> 순위표 초기화 </button>
+<table id ="puzzleGame">
+	<tr>
+		<td name ="tdList" id="box1" ondragover="allowDrop(event)"><div class = "mover" name = "img" id="img" draggable="true"ondragstart="dragWord(event)"></div></td> 
+		<td name ="tdList" id="box2" ondragover="allowDrop(event)"><div class = "mover" name = "img" id="img" draggable="true"ondragstart="dragWord(event)"></div></td> 
+		<td name ="tdList" id="box3" ondragover="allowDrop(event)"><div class = "mover" name = "img" id="img" draggable="true"ondragstart="dragWord(event)"></div></td> 
+		<td name ="tdList" id="box4" ondragover="allowDrop(event)"><div class = "mover" name = "img" id="img" draggable="true"ondragstart="dragWord(event)"></div></td>
+	</tr>   
+	<tr>
+		<td name ="tdList" id="box5" ondragover="allowDrop(event)"><div class = "mover" name = "img" id="img" draggable="true"ondragstart="dragWord(event)"></div></td> 
+		<td name ="tdList" id="box6" ondragover="allowDrop(event)"><div class = "mover" name = "img" id="img" draggable="true"ondragstart="dragWord(event)"></div></td> 
+		<td name ="tdList" id="box7" ondragover="allowDrop(event)"><div class = "mover" name = "img" id="img" draggable="true"ondragstart="dragWord(event)"></div></td> 
+		<td name ="tdList" id="box8" ondragover="allowDrop(event)"><div class = "mover" name = "img" id="img" draggable="true"ondragstart="dragWord(event)"></div></td>
+	</tr>                            
+	<tr>
+		<td name ="tdList" id="box9" ondragover="allowDrop(event)"><div class = "mover" name = "img" id="img" draggable="true" ondragstart="dragWord(event)"></div></td> 
+		<td name ="tdList" id="box10" ondragover="allowDrop(event)"><div class = "mover" name = "img" id="img" draggable="true" ondragstart="dragWord(event)"></div></td> 
+		<td name ="tdList" id="box11" ondragover="allowDrop(event)"><div class = "mover" name = "img" id="img" draggable="true" ondragstart="dragWord(event)"></div></td> 
+		<td name ="tdList" id="box12" ondragover="allowDrop(event)"><div class = "mover" name = "img" id="img" draggable="true" ondragstart="dragWord(event)"></div></td>
+	</tr>     
+	<tr>
+		<td name ="tdList" id="box13" ondragover="allowDrop(event)"><div class = "mover" name = "img" id="img" draggable="true" ondragstart="dragWord(event)"></div></td> 
+		<td name ="tdList" id="box14" ondragover="allowDrop(event)"><div class = "mover" name = "img" id="img" draggable="true" ondragstart="dragWord(event)"></div></td> 
+		<td name ="tdList" id="box15" ondragover="allowDrop(event)"><div class = "mover" name = "img" id="img" draggable="true" ondragstart="dragWord(event)"></div></td>
+		<td name ="tdList" id="box16" ondragover="allowDrop(event)"><div class = "mover" name = "img" id="img" draggable="true" ondragstart="dragWord(event)"></div></td>
+	</tr>
+</table>
+
+
+</body>
+</html>

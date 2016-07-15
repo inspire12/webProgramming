@@ -1,0 +1,92 @@
+
+<!DOCTYPE html> 
+<html>
+
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<title>201203431 서영학 </title> 
+ 
+<link rel="stylesheet" type="text/css" href="Term1.css"> 
+<script src="Term1.js" type = "text/javascript"></script> 
+ 
+</head> 
+<body> 
+    <span class="im">© 201203431 서영학</span>
+    
+    <div class="contents"> 
+        <form>
+        <table id = ParkingList>
+            <caption>차량 목록</caption>
+            <tr id = contentsHeader>
+                <td>    </td>
+                <td>제조사</td>
+                <td>차종</td>
+                <td>가격</td>
+                <td>크기</td>
+                <td>상태</td>
+            </tr>
+            
+        </table> 
+        <p id=numberOfEnroll> 등록 차량수 : </p>
+        <p id=numberOfStocked> 입고 차량수 : </p>
+        <input type="button" value = "입고" id ="button_storage" onclick="in_storage()">
+        <input type="button" value = "출고" onclick="out_storage()">
+        </form>
+    </div> 
+        
+        
+    <div class="enroll">
+        <form>
+            <table id = enrollList>
+                <caption>차량 등록 삭제창</caption>
+                <tr>
+                    <td>제조사</td>
+                    <td>
+                    <label>
+                        <input id ="manuList" list = "manuInput" >
+                        <datalist id="manuInput" value ="">
+                            <option value="롤스로이스"></option>
+                            <option value="폭스바겐"></option>
+                            <option value="현대"></option>
+                            <option value="기아"></option>
+                        </datalist>
+                        
+                    </label> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>차종</td><td><input type="text" id = "kindInput"></td>
+                </tr>
+                <tr>
+                    <td>가격</td><td><input type="text" id = "priceInput" placeholder="가격" onkeyup="isNum()"></td>
+                </tr>
+
+                <tr>
+                    <td>크기</td>
+                    <td>
+                    <label>
+                        <select name="size" id ="sizeInput">
+                            <option value="">차량 크기 선택</option>
+                            <option>경차</option>
+                            <option>소형</option>
+                            <option>중형</option>
+                            <option>대형</option>
+                            <option>버스</option>
+                            <option>소형SUV</option>
+                            <option>SUV</option>
+                        </select>
+                    </label> 
+                    </td>
+                </tr>
+                
+                
+            </table>
+			<p id = deleteCarOutput>삭제목록 <br></p>
+           
+            <input type="button" value = "차량 등록" onclick="enrollCar();">
+            <input type="button" value = "차량 삭제" onclick="deleteCar()">
+        </form>  
+    </div>
+    
+</body> 
+</html> 

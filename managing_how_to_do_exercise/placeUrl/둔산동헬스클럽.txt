@@ -1,0 +1,5 @@
+400|400|asdf|www.daum.net!
+700|300|fdsa|www.daum.net!
+700|500|fdsa|www.daum.net!
+240|240|벤치프레스|www.youtube.com/watch?v=N70ldhzXlPk!
+

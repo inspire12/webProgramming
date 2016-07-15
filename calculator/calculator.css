@@ -1,0 +1,137 @@
+body { 
+    font-size:12px; 
+    font-family:Arial, Georgia, "Times New Roman", Times, serif; 
+    color:#444; 
+    background-image:url('http://cfile9.uf.tistory.com/image/257A084250ED96661AE4A1');
+} 
+
+#history{
+    clear:both;
+    
+    width:200px; 
+    height:500px; 
+    
+    position:absolute;
+    display:inline-block;
+    overflow:scroll; 
+    margin:0px 0px 0px 450px; 
+    border:#fff 1px solid; 
+    text-align:right;
+    padding-bottom:10px; 
+    background-color:#f2f2f2; 
+
+}
+#calculator { 
+    width:400px; 
+    height:500px; 
+   position:absolute;
+    overflow:auto; 
+     display:inline-block;
+    border:#fff 1px solid; 
+    padding-bottom:10px; 
+    background-color:#f2f2f2; 
+} 
+#calculator div { 
+clear:both; 
+} 
+#calculator ul{ 
+    padding:0; 
+    margin:5px 14px; 
+    border:#fff 1px solid; 
+    height:auto; 
+    overflow:hidden ;
+    text-align:center;
+} 
+
+#calculator li{ 
+
+    list-style:none; 
+    float:left; 
+    width:60px; 
+    height:60px; 
+    margin:5px; 
+    display:inline; 
+    line-height:32px; 
+    font-size:20px; 
+    background-color:#eaeaea; 
+} 
+#equal{
+    width:32px
+}
+#calculator li.tool{ 
+    background-color:#e2e2e2; 
+} 
+#calculator li:hover{ 
+    background-color:#f9f9f9; 
+    cursor:pointer; 
+} 
+#calculator li:active{ 
+    background-color:#fc0; 
+    cursor:pointer; 
+} 
+#calculator li.tool:active{ 
+    background-color:#d8e8ff; 
+    cursor:pointer; 
+} 
+#calcu-head { 
+    text-align:left; 
+    padding:10px 15px 5px; 
+} 
+span.imyeah { 
+float:right; 
+color:#ccc; 
+} 
+span.imyeah a{ 
+color:#ccc; 
+} 
+
+#calcu-screen{
+width:390px; 
+height:120px; 
+border:#e6e6e6 1px solid; 
+background-color:#f2f2f2; 
+}
+.expressscreen{
+    float:right;
+
+    position:relative;
+    padding-right:20px;
+    width:200px; 
+    height:40px; 
+
+    line-height:16px; 
+    padding:4px; 
+    overflow:scroll;
+    border:#e6e6e6 1px solid; 
+    border-bottom:#f2f2f2 1px solid; 
+    border-right:#f2f2f2 1px solid; 
+     margin: 10px 30px 2px 20px;
+    direction:ltr; 
+    text-align:right; 
+    font-size:16px; 
+    color:#999; 
+} 
+.screen{ 
+    float:right;
+    display:inline-block;
+    width:320px; 
+    height:40px; 
+    line-height:24px; 
+    padding:4px;
+    overflow:scroll; 
+    border:#e6e6e6 1px solid; 
+    border-bottom:#f2f2f2 1px solid; 
+    border-right:#f2f2f2 1px solid; 
+      margin: 2px 30px 15px 20px; 
+    direction:ltr; 
+    text-align:right; 
+    font-size:20px; 
+    color:#999; 
+}
+
+#calcu-foot{ 
+    text-align:left; 
+    padding:10px 15px 5px; 
+    height:auto; 
+    overflow:hidden; 
+} 

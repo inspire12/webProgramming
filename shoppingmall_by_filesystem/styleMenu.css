@@ -1,0 +1,56 @@
+body { 
+    font-size:12px; 
+    font-family:Arial, Georgia, "Times New Roman", Times, serif; 
+    color:#444; 
+    background-image:url('https://4.bp.blogspot.com/-jwH7r1Lgxpw/Vs2qfPq2V-I/AAAAAAAABwk/bBRbXHLhU-Q/s1600/2016021838B0869C%25282%2529.jpg');
+} 
+form{
+	display : block;
+}
+table{
+   float:left;
+	background-color:white;
+}
+img{
+	position : relative;
+    float : left;
+    width : 200px;
+    height : 140px;
+    border : 1px solid black;
+}
+#MenuList{
+	background-color : white;
+	float:left;
+
+	width : 950px;
+}
+#list{
+display : block;
+	float:left;
+}
+#pointList{
+	float : left;
+	width : 250px;
+}
+#Menu{
+    display : inline-block;
+    width : 450px;
+    height : 150px;
+    margin : 10px;
+    border : 1px solid black;
+}
+
+#point{
+	background-color : white;
+	float : left;
+	width :200px;
+	height : 100px;
+	margin : 10px;
+	border : 1px solid black;
+}
+span{
+    
+} 
+#pn{
+	font-weight : bold;
+}

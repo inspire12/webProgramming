@@ -1,0 +1,4 @@
+청축 텐키리스 Strike Battle
+95,000
+20
+./img/keyboard.jpg
